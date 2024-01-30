@@ -9,4 +9,11 @@
 /*Letras*/
 /*Colores*/
 /* SCSS RGB */
-/* SCSS Gradient *//*# sourceMappingURL=style.css.map */
+/* SCSS Gradient */
+header {
+  background-color: linear-gradient(270deg, #ffd6ff, #e7c6ff, #c8b6ff, #b8c0ff, #bbd0ff);
+}
+
+.logouni {
+  width: 300px;
+}/*# sourceMappingURL=style.css.map */
