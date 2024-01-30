@@ -11,9 +11,10 @@
 /* SCSS RGB */
 /* SCSS Gradient */
 header {
-  background-color: linear-gradient(270deg, #ffd6ff, #e7c6ff, #c8b6ff, #b8c0ff, #bbd0ff);
+  background-color: rgb(184, 192, 255);
 }
 
 .logouni {
-  width: 300px;
+  width: 200px;
+  border-radius: 10px;
 }/*# sourceMappingURL=style.css.map */
