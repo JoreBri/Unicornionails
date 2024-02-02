@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Playfair+Display:ital,wght@0,600;0,700;0,800;0,900;1,500&display=swap");
 * {
   padding: 0;
@@ -12,7 +13,49 @@
 /*Letras*/
 /*Colores*/
 /* SCSS RGB */
+.quien__pagina {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .logouni {
   width: 100px;
   border-radius: 10px;
+}
+
+.quien__encabezado {
+  background-color: rgb(187, 208, 255);
+  border-radius: 10px;
+  margin: 25px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.quien__encabezado .quien__cuerpo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.quien__presentacion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(255, 214, 255);
+  border-radius: 15px;
+  margin: 15px;
+  padding: 10px;
+}
+.quien__presentacion .quien__texto {
+  font-family: "Playfair Display", serif;
+}
+
+.quien__trabajos {
+  display: flex;
+}
+
+.quien__diseños {
+  max-width: 350px;
 }/*# sourceMappingURL=style.css.map */

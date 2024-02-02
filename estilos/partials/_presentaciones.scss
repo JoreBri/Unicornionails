@@ -1,0 +1,19 @@
+.quien__presentacion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $mimi-pink;
+    border-radius: 15px;
+    margin: 15px;
+    padding: 10px;
+    .quien__texto{
+        font-family: 'Playfair Display', serif;
+    }
+}
+
+.quien__trabajos {
+    display: flex;
+}
+.quien__diseños{
+    max-width: 350px;
+}

@@ -1,0 +1,14 @@
+.quien__encabezado{
+    background-color: $periwinkle-2;
+    border-radius: 10px;
+    margin: 25px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .quien__cuerpo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
