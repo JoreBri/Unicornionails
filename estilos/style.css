@@ -5,11 +5,13 @@
   font-family: "Open Sans", sans-serif;
   font-family: "Playfair Display", serif;
 }
+* .cuerpo {
+  background-color: rgb(231, 198, 255);
+}
 
 /*Letras*/
 /*Colores*/
 /* SCSS RGB */
-/* SCSS Gradient */
 .logouni {
   width: 100px;
   border-radius: 10px;
