@@ -39,6 +39,29 @@
   align-items: center;
 }
 
+.index__encabezado {
+  background-color: rgb(187, 208, 255);
+  border-radius: 10px;
+  margin: 25px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.index__intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(187, 208, 255);
+  border-radius: 10px;
+  margin: 25px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .quien__presentacion {
   display: flex;
   flex-direction: column;
@@ -47,9 +70,6 @@
   border-radius: 15px;
   margin: 15px;
   padding: 10px;
-}
-.quien__presentacion .quien__texto {
-  font-family: "Playfair Display", serif;
 }
 
 .quien__trabajos {
